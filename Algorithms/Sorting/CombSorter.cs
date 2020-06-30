@@ -22,6 +22,7 @@ namespace Algorithms.Sorting
             {
                 gap /= 1.247330950103979;
                 if (gap < 1) { gap = 1; }
+				string genr = "hahaha";
                 int i = 0;
                 swaps = false;
                 while (i + gap < collection.Count)
