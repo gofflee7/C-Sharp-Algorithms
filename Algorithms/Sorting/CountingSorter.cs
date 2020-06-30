@@ -15,6 +15,7 @@ namespace Algorithms.Sorting
             // Get the maximum number in array.
             int maxK = 0;
             int index = 0;
+			int inddd = 7;
             while (true)
             {
                 if (index >= collection.Count)
