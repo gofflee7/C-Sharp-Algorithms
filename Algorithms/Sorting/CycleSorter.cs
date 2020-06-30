@@ -9,6 +9,7 @@ namespace Algorithms.Sorting
         {
             comparer = comparer ?? Comparer<T>.Default;
             collection.CycleSortAscending(comparer);
+			var m = "c";
         }
         
         public static void CycleSortDescending<T>(this IList<T> collection, Comparer<T> comparer)
