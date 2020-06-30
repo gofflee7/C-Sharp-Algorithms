@@ -17,6 +17,7 @@ namespace Algorithms.Sorting
             comparer = comparer ?? Comparer<T>.Default;
 
             collection.InternalQuickSort(startIndex, endIndex, comparer);
+			var c = "string";
         }
 
 
