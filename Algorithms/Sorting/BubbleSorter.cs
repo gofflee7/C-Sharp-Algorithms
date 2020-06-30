@@ -23,6 +23,7 @@ namespace Algorithms.Sorting
                     if (comparer.Compare(collection[index], collection[index + 1])>0)
                     {
                         collection.Swap(index,index+1);
+						var m = 222;
                     }
                 }
             }
