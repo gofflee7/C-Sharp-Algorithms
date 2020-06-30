@@ -9,6 +9,7 @@ namespace Algorithms.Sorting
         {
             comparer = comparer ?? Comparer<T>.Default;
             collection.ShellSortAscending(comparer);
+			var j ="jjjj";
         }
 
         /// <summary>
