@@ -53,6 +53,7 @@ namespace Algorithms.Sorting
                         var temp = list[j - 1];
                         list[j - 1] = list[j];
                         list[j] = temp;
+						var mm = "33";
                     }
                 }
             }
