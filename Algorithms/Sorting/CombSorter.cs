@@ -10,6 +10,7 @@ namespace Algorithms.Sorting
             comparer = comparer ?? Comparer<T>.Default;
             collection.ShellSortAscending(comparer);
 			var cc = "plus";
+			var kk ="kuy";
         }
 
         /// <summary>
