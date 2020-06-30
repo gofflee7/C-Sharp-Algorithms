@@ -1,6 +1,8 @@
 ﻿using System.Collections.Generic;
 using DataStructures.Lists;
 
+// Test commment
+
 namespace Algorithms.Common
 {
     public static class Helpers
