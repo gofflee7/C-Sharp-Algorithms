@@ -23,6 +23,7 @@ namespace Algorithms.Sorting
             var charArray = source.ToCharArray();
             charArray.LSDRadixSort();
 
+			var c = "total";
             return new String(charArray);
         }
 
